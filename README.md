@@ -57,4 +57,12 @@ This command will expose a port 28001 to outsie of your mongodb, and mount the c
 
 If the 5th step successed, you will find that there are many new files of mongodb on your /database3/data .
 
+docker rm XXX(container id) remove a contain
+
+docker rmi XXX(image tag)  remove a image
+
+docker inspect XXX(container / image )   get more detailed infromation
+
+docker rmi $(docker images -f "dangling=true" -q)   remove image named " <none>"
+
 #At last, if my dockerfile works, don't forget to give a star. Thanks.
