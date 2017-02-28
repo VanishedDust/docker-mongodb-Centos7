@@ -22,6 +22,7 @@ My dockerfile:  /database3/mydockerbuild/Dockerfile
 Then copy the content to your dockerfile.
 
 3. Creating your own image.
+
 Don't foget the last period which means your path of dockerfile,you can change to your dockerfile directory.
 
 docker build -t jmongodb . 
