@@ -21,7 +21,7 @@ My dockerfile:  /database3/mydockerbuild/Dockerfile
 
 Then copy the content to your dockerfile.
 
-3. Creating your own image.
+3.Creating your own image.
 
 Don't foget the last period which means your path of dockerfile,you can change to your dockerfile directory.
 
@@ -41,7 +41,7 @@ If you have mongodb,you can use command:
 
 mongo --port 28001
 
-6. Giving your more information
+6.Giving your more information
 
 docker run -p 28001:27017 --name mongo_instance_001 -d -v /database3/data/:/data/db jmongodb
 
